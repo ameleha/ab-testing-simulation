@@ -1,10 +1,14 @@
 image: gitpod/workspace-full
 
 tasks:
-  - name: Run Jupyter
+  - name: Start Jupyter Notebook
     command: |
-      pip install -r requirements.txt
-      jupyter notebook --NotebookApp.allow_origin='*' --NotebookApp.allow_remote_access=True --NotebookApp.token='' --port=8888 --ip=0.0.0.0
+      pip install -r requirements.txt || pip install pandas jupyter matplotlib seaborn scipy
+      jupyter notebook --NotebookApp.token='' --NotebookApp.password='' \
+                       --NotebookApp.allow_origin='*' \
+                       --NotebookApp.allow_remote_access=True \
+                       --NotebookApp.ip=0.0.0.0 \
+                       --NotebookApp.port=8888
 
 ports:
   - port: 8888
