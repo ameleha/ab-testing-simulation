@@ -1,0 +1,7 @@
+image: gitpod/workspace-full
+
+tasks:
+  - name: Run Jupyter
+    command: |
+      pip install -r requirements.txt
+      jupyter notebook --NotebookApp.allow_origin='*' --NotebookApp.allow_remote_access=True --NotebookApp.token='' --port=8888 --ip=0.0.0.0
