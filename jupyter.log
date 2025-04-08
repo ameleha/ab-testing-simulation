@@ -1,31 +1,31 @@
 nohup: ignoring input
-[I 2025-04-08 13:08:25.098 ServerApp] jupyter_lsp | extension was successfully linked.
-[I 2025-04-08 13:08:25.104 ServerApp] jupyter_server_terminals | extension was successfully linked.
-[W 2025-04-08 13:08:25.106 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
-[W 2025-04-08 13:08:25.106 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
-[W 2025-04-08 13:08:25.106 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
-[W 2025-04-08 13:08:25.106 LabApp] 'allow_remote_access' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
-[W 2025-04-08 13:08:25.106 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
-[W 2025-04-08 13:08:25.106 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
-[W 2025-04-08 13:08:25.110 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
-[I 2025-04-08 13:08:25.110 ServerApp] jupyterlab | extension was successfully linked.
-[I 2025-04-08 13:08:25.114 ServerApp] notebook | extension was successfully linked.
-[I 2025-04-08 13:08:25.115 ServerApp] Writing Jupyter server cookie secret to /home/gitpod/.local/share/jupyter/runtime/jupyter_cookie_secret
-[I 2025-04-08 13:08:25.440 ServerApp] notebook_shim | extension was successfully linked.
-[W 2025-04-08 13:08:25.467 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
-[I 2025-04-08 13:08:25.467 ServerApp] notebook_shim | extension was successfully loaded.
-[I 2025-04-08 13:08:25.470 ServerApp] jupyter_lsp | extension was successfully loaded.
-[I 2025-04-08 13:08:25.471 ServerApp] jupyter_server_terminals | extension was successfully loaded.
-[I 2025-04-08 13:08:25.473 LabApp] JupyterLab extension loaded from /home/gitpod/.pyenv/versions/3.12.9/lib/python3.12/site-packages/jupyterlab
-[I 2025-04-08 13:08:25.473 LabApp] JupyterLab application directory is /home/gitpod/.pyenv/versions/3.12.9/share/jupyter/lab
-[I 2025-04-08 13:08:25.473 LabApp] Extension Manager is 'pypi'.
-[I 2025-04-08 13:08:25.533 ServerApp] jupyterlab | extension was successfully loaded.
-[I 2025-04-08 13:08:25.537 ServerApp] notebook | extension was successfully loaded.
-[I 2025-04-08 13:08:25.538 ServerApp] Serving notebooks from local directory: /workspace/ab-testing-simulation
-[I 2025-04-08 13:08:25.538 ServerApp] Jupyter Server 2.15.0 is running at:
-[I 2025-04-08 13:08:25.538 ServerApp] http://ameleha-abtestingsimula-xpgk6t0ex87:8888/tree
-[I 2025-04-08 13:08:25.538 ServerApp]     http://127.0.0.1:8888/tree
-[I 2025-04-08 13:08:25.538 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[I 2025-04-08 13:08:25.792 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
-[I 2025-04-08 13:08:35.603 ServerApp] 302 GET /?vscodeBrowserReqId=[secret] (@192.168.110.137) 0.60ms
-[W 2025-04-08 13:08:35.715 ServerApp] Content security violation: {"csp-report":{"document-uri":"https://8888-ameleha-abtestingsimula-xpgk6t0ex87.ws-eu118.gitpod.io/","referrer":"https://0khe8m2qj0ugp13e14mhvn5ru2724vf3epjem5bukaoufedmjrhm.ws-eu118.gitpod.io/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-e8a073cc6603bdeaf40b67ac54116496663eeb39/__files__/out/vs/workbench/contrib/webview/browser/pre/index.html?id=b025c5f5-2aa3-4888-adc7-20624a73efbb&origin=7d9b39d5-48d9-4cec-bf44-9210d5aa1f94&swVersion=4&extensionId=vscode.simple-browser&platform=browser&vscode-resource-base-authority=vscode-resource.gitpod.io&parentOrigin=https%3A%2F%2Fameleha-abtestingsimula-xpgk6t0ex87.ws-eu118.gitpod.io&remoteAuthority=ameleha-abtestingsimula-xpgk6t0ex87.ws-eu118.gitpod.io","violated-directive":"frame-ancestors","effective-directive":"frame-ancestors","original-policy":"frame-ancestors 'self'; report-uri /api/security/csp-report","disposition":"enforce","blocked-uri":"https://8888-ameleha-abtestingsimula-xpgk6t0ex87.ws-eu118.gitpod.io/","status-code":200,"script-sample":""}}
+[I 2025-04-08 13:15:14.581 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-04-08 13:15:14.588 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2025-04-08 13:15:14.591 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-04-08 13:15:14.591 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-04-08 13:15:14.591 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-04-08 13:15:14.591 LabApp] 'allow_remote_access' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-04-08 13:15:14.591 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-04-08 13:15:14.591 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-04-08 13:15:14.596 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[I 2025-04-08 13:15:14.597 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-04-08 13:15:14.602 ServerApp] notebook | extension was successfully linked.
+[I 2025-04-08 13:15:14.603 ServerApp] Writing Jupyter server cookie secret to /home/gitpod/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2025-04-08 13:15:15.142 ServerApp] notebook_shim | extension was successfully linked.
+[W 2025-04-08 13:15:15.183 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2025-04-08 13:15:15.183 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-04-08 13:15:15.185 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-04-08 13:15:15.187 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-04-08 13:15:15.190 LabApp] JupyterLab extension loaded from /home/gitpod/.pyenv/versions/3.12.9/lib/python3.12/site-packages/jupyterlab
+[I 2025-04-08 13:15:15.190 LabApp] JupyterLab application directory is /home/gitpod/.pyenv/versions/3.12.9/share/jupyter/lab
+[I 2025-04-08 13:15:15.191 LabApp] Extension Manager is 'pypi'.
+[I 2025-04-08 13:15:15.269 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-04-08 13:15:15.273 ServerApp] notebook | extension was successfully loaded.
+[I 2025-04-08 13:15:15.274 ServerApp] Serving notebooks from local directory: /workspace/ab-testing-simulation
+[I 2025-04-08 13:15:15.274 ServerApp] Jupyter Server 2.15.0 is running at:
+[I 2025-04-08 13:15:15.274 ServerApp] http://ameleha-abtestingsimula-qgyxqm0skky:8888/tree
+[I 2025-04-08 13:15:15.274 ServerApp]     http://127.0.0.1:8888/tree
+[I 2025-04-08 13:15:15.274 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-04-08 13:15:15.530 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-04-08 13:15:22.685 ServerApp] 302 GET /?vscodeBrowserReqId=[secret] (@192.168.110.137) 0.60ms
+[W 2025-04-08 13:15:22.865 ServerApp] Content security violation: {"csp-report":{"document-uri":"https://8888-ameleha-abtestingsimula-qgyxqm0skky.ws-eu118.gitpod.io/","referrer":"https://0o5jfj2q7g001pj6qo6sidkp1lhgnla7sims72186ukk0ssljbjn.ws-eu118.gitpod.io/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-e8a073cc6603bdeaf40b67ac54116496663eeb39/__files__/out/vs/workbench/contrib/webview/browser/pre/index.html?id=f5105eef-73b8-4d0b-a516-943537a052e6&origin=a4aecc90-48ab-4612-a6c3-05bbb46832bd&swVersion=4&extensionId=vscode.simple-browser&platform=browser&vscode-resource-base-authority=vscode-resource.gitpod.io&parentOrigin=https%3A%2F%2Fameleha-abtestingsimula-qgyxqm0skky.ws-eu118.gitpod.io&remoteAuthority=ameleha-abtestingsimula-qgyxqm0skky.ws-eu118.gitpod.io","violated-directive":"frame-ancestors","effective-directive":"frame-ancestors","original-policy":"frame-ancestors 'self'; report-uri /api/security/csp-report","disposition":"enforce","blocked-uri":"https://8888-ameleha-abtestingsimula-qgyxqm0skky.ws-eu118.gitpod.io/","status-code":200,"script-sample":""}}
