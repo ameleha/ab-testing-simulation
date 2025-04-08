@@ -5,7 +5,6 @@ tasks:
       pip install -r requirements.txt || pip install pandas jupyter matplotlib seaborn scipy
   - name: Start Jupyter Notebook
     command: |
-      echo "📚 Starting Jupyter Notebook..."
       nohup jupyter notebook \
         --NotebookApp.token='' \
         --NotebookApp.password='' \
@@ -16,9 +15,8 @@ tasks:
         > jupyter.log 2>&1 &
 
       echo "✅ Jupyter is launching in the background..."
-      echo ""
       echo "🌐 Open this in your browser:"
-      echo "👉 https://8888-$(gp url 8888 | sed 's|^https://||')/tree"
+      echo "👉 $(gp url 8888)/tree"
 
 ports:
   - port: 8888
