@@ -11,8 +11,7 @@ tasks:
         --NotebookApp.allow_origin='*' \
         --NotebookApp.allow_remote_access=True \
         --NotebookApp.ip=0.0.0.0 \
-        --NotebookApp.port=8888 \
-      > /dev/null 2>&1 &
+        --NotebookApp.port=8888 2>&1 | grep -v "file://" > jupyter.log &
 
       echo "✅ Jupyter is launching in the background..."
       echo "🌐 Open this in your browser:"
