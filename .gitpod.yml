@@ -5,3 +5,8 @@ tasks:
     command: |
       pip install -r requirements.txt
       jupyter notebook --NotebookApp.allow_origin='*' --NotebookApp.allow_remote_access=True --NotebookApp.token='' --port=8888 --ip=0.0.0.0
+
+ports:
+  - port: 8888
+    onOpen: open-preview
+    visibility: public
