@@ -18,7 +18,3 @@ tasks:
       echo "🌐 Open this in your browser:"
       echo "$(gp url 8888)/tree"
 
-ports:
-  - port: 8888
-    onOpen: open-preview
-    visibility: public
